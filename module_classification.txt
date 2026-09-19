@@ -1,0 +1,171 @@
+[INFO] Total modules declared: 164
+
+[ZERO references outside mod/use] (151 modules):
+  hash
+  transaction
+  wallet
+  evm_wallet
+  evm_tx
+  mempool
+  supply
+  network
+  peer
+  peers
+  block_message
+  amm
+  trade
+  api_models
+  multisig
+  seed
+  encryption
+  recovery
+  secure_storage
+  staking
+  validator
+  slashing
+  governance
+  treasury
+  contracts
+  token
+  coingecko_client
+  dex
+  peer_manager
+  delegate
+  validator_registry
+  epoch
+  performance
+  security_council
+  reputation
+  validator_selector
+  uptime
+  validator_rank
+  rotation
+  leader_selection
+  jail
+  health
+  dynamic_rewards
+  performance_score
+  election_v2
+  election_audit
+  downtime
+  auto_slash
+  suspension
+  reputation_recovery
+  health_score
+  weighted_leader
+  committee
+  committee_vote
+  committee_proposal
+  upgrade
+  protocol_version
+  hard_fork
+  vesting
+  validator_snapshot
+  reward_history
+  reward_claim
+  reward_vault
+  epoch_rewards
+  reward_split
+  delegation_registry
+  delegator_rewards
+  unbonding
+  key_rotation
+  heartbeat
+  offline_jail
+  recovery_jail
+  strike_system
+  reputation_decay
+  leader_v2
+  performance_history
+  trust_score
+  election_v3
+  emergency_vote
+  chain_freeze
+  treasury_freeze
+  network_recovery
+  blacklist
+  admission
+  node_fingerprint
+  sybil_detector
+  geographic_diversity
+  hosting_risk
+  network_latency
+  availability
+  reliability_ranking
+  leader_election_v4
+  rotation_scheduler
+  strike_v2
+  suspension_manager
+  recovery_manager
+  validator_appeals
+  security_council_voting
+  appeal_resolution
+  emergency_freeze
+  emergency_recovery
+  safe_restart
+  validator_state_snapshot
+  validator_state_rollback
+  chain_state_snapshot
+  chain_state_rollback
+  governance_state_snapshot
+  governance_state_rollback
+  network_checkpoint
+  checkpoint_recovery
+  checkpoint_scheduler
+  checkpoint_integrity
+  checkpoint_archive
+  checkpoint_pruning
+  checkpoint_replication
+  checkpoint_consensus
+  checkpoint_quorum
+  checkpoint_finalization
+  checkpoint_voting
+  checkpoint_proposal
+  checkpoint_proposal_validation
+  checkpoint_proposal_execution
+  checkpoint_slashing
+  checkpoint_reputation
+  checkpoint_weighted_voting
+  checkpoint_weighted_quorum
+  treasury_protection
+  treasury_recovery_lock
+  treasury_timelock
+  treasury_emergency_freeze
+  treasury_audit
+  treasury_audit_hashchain
+  treasury_merkle_audit
+  merkle_proof
+  checkpoint_merkle_registry
+  checkpoint_history_verify
+  state_snapshot_verify
+  state_snapshot_registry
+  fast_sync_selector
+  snapshot_trust_score
+  snapshot_consensus
+  snapshot_quorum
+  snapshot_finalization
+  snapshot_signature
+  recovery_snapshot_certificate
+  recovery_certificate_registry
+  recovery_certificate_revocation
+  recovery_certificate_expiration
+  recovery_certificate_multisig
+  recovery_authority_governance
+  mainnet_readiness
+
+[LOW references, 1-2] (8 modules):
+  block: 1
+  evm_rpc: 1
+  api: 1
+  token_registry: 1
+  bsc_watcher: 1
+  seeds: 1
+  consensus: 1
+  audit: 1
+
+[ACTIVE, 3+ references] (5 modules):
+  config: 3
+  chain: 5
+  version: 5
+  genesis: 6
+  storage: 13

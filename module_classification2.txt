@@ -1,0 +1,173 @@
+[INFO] Total modules: 164
+
+[NO IMPORTED TYPES FOUND — needs manual check] (37):
+  hash
+  transaction
+  block
+  wallet
+  evm_wallet
+  evm_rpc
+  evm_tx
+  mempool
+  supply
+  storage
+  peer
+  peers
+  block_message
+  trade
+  api
+  api_models
+  seed
+  encryption
+  recovery
+  secure_storage
+  validator
+  contracts
+  token
+  token_registry
+  coingecko_client
+  bsc_watcher
+  dex
+  version
+  config
+  genesis
+  seeds
+  delegate
+  audit
+  leader_selection
+  suspension
+  recovery_jail
+  checkpoint_recovery
+
+[IMPORTED BUT ZERO USAGE — likely dead] (0):
+
+[LOW USAGE 1-3 — check for fake-resilience pattern] (103):
+  validator_rank: 1
+  dynamic_rewards: 1
+  performance_score: 1
+  election_audit: 1
+  auto_slash: 1
+  health_score: 1
+  committee_vote: 1
+  reward_split: 1
+  delegator_rewards: 1
+  offline_jail: 1
+  reputation_decay: 1
+  leader_v2: 1
+  election_v3: 1
+  emergency_vote: 1
+  admission: 1
+  appeal_resolution: 1
+  validator_state_rollback: 1
+  chain_state_rollback: 1
+  governance_state_rollback: 1
+  checkpoint_scheduler: 1
+  checkpoint_replication: 1
+  checkpoint_consensus: 1
+  checkpoint_quorum: 1
+  checkpoint_proposal_execution: 1
+  checkpoint_weighted_quorum: 1
+  treasury_recovery_lock: 1
+  treasury_emergency_freeze: 1
+  treasury_merkle_audit: 1
+  snapshot_quorum: 1
+  mainnet_readiness: 1
+  performance: 2
+  security_council: 2
+  validator_selector: 2
+  election_v2: 2
+  downtime: 2
+  reputation_recovery: 2
+  weighted_leader: 2
+  upgrade: 2
+  hard_fork: 2
+  validator_snapshot: 2
+  epoch_rewards: 2
+  key_rotation: 2
+  strike_system: 2
+  trust_score: 2
+  blacklist: 2
+  node_fingerprint: 2
+  sybil_detector: 2
+  geographic_diversity: 2
+  hosting_risk: 2
+  network_latency: 2
+  leader_election_v4: 2
+  rotation_scheduler: 2
+  suspension_manager: 2
+  security_council_voting: 2
+  emergency_freeze: 2
+  safe_restart: 2
+  validator_state_snapshot: 2
+  chain_state_snapshot: 2
+  governance_state_snapshot: 2
+  checkpoint_integrity: 2
+  checkpoint_archive: 2
+  checkpoint_pruning: 2
+  checkpoint_finalization: 2
+  checkpoint_proposal_validation: 2
+  checkpoint_slashing: 2
+  checkpoint_weighted_voting: 2
+  treasury_protection: 2
+  treasury_audit: 2
+  treasury_audit_hashchain: 2
+  merkle_proof: 2
+  fast_sync_selector: 2
+  recovery_certificate_registry: 2
+  recovery_certificate_revocation: 2
+  recovery_certificate_expiration: 2
+  amm: 3
+  multisig: 3
+  staking: 3
+  consensus: 3
+  epoch: 3
+  rotation: 3
+  committee_proposal: 3
+  protocol_version: 3
+  vesting: 3
+  reward_history: 3
+  reward_claim: 3
+  reward_vault: 3
+  delegation_registry: 3
+  unbonding: 3
+  chain_freeze: 3
+  treasury_freeze: 3
+  network_recovery: 3
+  reliability_ranking: 3
+  strike_v2: 3
+  recovery_manager: 3
+  validator_appeals: 3
+  emergency_recovery: 3
+  checkpoint_voting: 3
+  treasury_timelock: 3
+  checkpoint_merkle_registry: 3
+  checkpoint_history_verify: 3
+  state_snapshot_registry: 3
+  snapshot_consensus: 3
+  recovery_snapshot_certificate: 3
+
+[ACTIVE 4+ usages] (24):
+  peer_manager: 4
+  jail: 4
+  committee: 4
+  heartbeat: 4
+  performance_history: 4
+  network_checkpoint: 4
+  checkpoint_proposal: 4
+  checkpoint_reputation: 4
+  snapshot_trust_score: 4
+  snapshot_finalization: 4
+  recovery_certificate_multisig: 4
+  recovery_authority_governance: 4
+  health: 5
+  availability: 5
+  snapshot_signature: 6
+  slashing: 7
+  uptime: 7
+  governance: 10
+  network: 11
+  state_snapshot_verify: 11
+  validator_registry: 15
+  reputation: 15
+  treasury: 16
+  chain: 42

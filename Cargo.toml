@@ -1,0 +1,27 @@
+[package]
+name = "nsc-chain"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.8"
+sha2 = "0.10"
+hmac = "0.12"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tiny_http = "0.12"
+ed25519-dalek = { version = "2.2.0", features = ["rand_core"] }
+hex = "0.4"
+aes-gcm = "0.10"
+secp256k1 = { version = "0.31.1", features = ["recovery", "rand"] }
+sha3 = "0.12.0"
+rlp = "0.6.1"
+tokio = { version = "1.52.3", features = ["full"] }
+jsonrpsee = { version = "0.26.0", features = ["server", "macros"] }
+hex-literal = "1.1.0"
+getrandom = "0.3"
+reqwest = { version = "0.13.4", default-features = false, features = ["json", "native-tls"] }
+
+[lib]
+name = "nsc_chain"
+path = "src/lib.rs"
